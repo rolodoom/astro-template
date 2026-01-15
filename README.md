@@ -99,6 +99,17 @@ The template includes a `BaseHead.astro` component that handles all SEO-related 
 - Canonical URL
 - Favicon
 
+### Astro config:
+
+```js
+// astro.config.mjs
+export default defineConfig({
+  site: "https://example.com/", // Replace with your own URL
+});
+```
+
+🔧 Replace `"https://example.com/"` with your site’s URL before deploying.
+
 ### Tailwind Configuration
 
 Tailwind CSS is pre-configured and ready to use. Customization can be done through the Astro configuration file (`astro.config.mjs`).
