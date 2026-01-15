@@ -1,11 +1,14 @@
 ---
-import Button from "../components/Button.astro";
 import Layout from "../layout/Layout.astro";
 ---
 
 <Layout title="404 - Page Not Found" description="Page Not Found">
   <main class="flex flex-col justify-center items-center py-8">
     <h1 class="text-3xl">404 - Page Not Found</h1>
-    <Button url="/" label="Go Back" />
+    <a
+      href="/"
+      class="bg-slate-600 text-slate-100 border-transparent px-8 py-2 mt-4 rounded hover:bg-white hover:text-slate-600 hover:border-slate-600 border-2 transition-colors"
+      >Go Back</a
+    >
   </main>
 </Layout>
