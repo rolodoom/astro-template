@@ -2,7 +2,7 @@
 
 ## SEO-ready Astro starter template with Tailwind CSS for building your modern web projects.
 
-[![Astro Template](public/images/portada.png)](https://github.com/rolodoom/astro-template)
+[![Astro Template](public/images/cover.png)](https://github.com/rolodoom/astro-template)
 
 ## Status
 
@@ -68,7 +68,7 @@ Inside of your Astro project, you'll see the following folders and files:
 ├── public/
 │   ├── favicon.svg
 │   └── images/
-│       └── portada.png
+│       └── cover.png
 ├── src/
 │   └── components/
 │       └── BaseHead.astro
