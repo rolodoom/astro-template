@@ -28,20 +28,20 @@
 1. Create a new project using this template:
 
    ```bash
-   npm create astro@latest -- --template rolodoom/astro-template
+   pnpm create astro@latest -- --template rolodoom/astro-template
    ```
 
 2. Go to your project folder and install dependencies:
 
    ```bash
    cd your-project-name
-   npm install
+   pnpm i
    ```
 
 3. Start the development server:
 
    ```bash
-   npm run dev
+   pnpm dev
    ```
 
 4. Open your browser and visit `http://localhost:4321` to see your project live.
@@ -50,14 +50,14 @@
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| Command                | Action                                           |
+| :--------------------- | :----------------------------------------------- |
+| `pnpm install`         | Installs dependencies                            |
+| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
+| `pnpm build`           | Build your production site to `./dist/`          |
+| `pnpm preview`         | Preview your build locally, before deploying     |
+| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `pnpm astro -- --help` | Get help using the Astro CLI                     |
 
 ## 📁 Project Structure
 
